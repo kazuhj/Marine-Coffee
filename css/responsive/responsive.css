@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*タブレット用*/
+@media (max-width: 1024px){
+
+  /*トップページ*/
+  .main-visual {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  .contents h1 {
+    font-size: 60px;
+  }
+
+  /*メニュー*/
+  .menu-list li {
+    width: 45%;
+  }
+}
+
+/*スマホ用*/
+@media (max-width: 670px) {
+
+  /*トップページ*/
+  .header-left {
+    display: none;
+  }
+  .header-right {
+    float: none;
+    text-align: center;
+  }
+  .header-right a {
+    font-size: 14px;
+  }
+  .main {
+    padding: 60px 0;
+  }
+  .main img {
+    width: 280px;
+  }
+  .main-txt {
+    font-size: 13px;
+  }
+  .footer-right {
+    padding-top: 0px;
+  }
+
+  /*メニュー*/
+  .menu-list li {
+    width: 100%;
+  }
+
+  /*アクセス*/
+  .google-map iframe {
+    width: 100%;
+  }
+  input, textarea {
+    width: 100%;
+  }
+}
